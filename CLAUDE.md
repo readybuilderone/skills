@@ -23,3 +23,13 @@ Skills live in `skills/{bucket}/{skill-name}/SKILL.md`.
 2. Add the path to `.claude-plugin/plugin.json`
 3. Add a one-line entry to the top-level `README.md`
 4. Add a one-line entry to the bucket's `README.md`
+
+## Forked Skills
+
+When creating a skill based on someone else's skill:
+
+1. Full copy the source SKILL.md into your repo (no runtime inheritance exists)
+2. Rename to `yh-{original-name}` (or another distinct name)
+3. Add `based_on: {owner}/{repo}#{skill-name}` in frontmatter for upstream tracing
+4. Modify freely — micro-tweaks and full rewrites are both fine
+5. Upstream sync is manual: diff upstream changes and decide whether to merge
