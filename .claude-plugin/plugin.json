@@ -1,4 +1,6 @@
 {
   "name": "readybuilderone-skills",
-  "skills": []
+  "skills": [
+    "./skills/productivity/yh-meta-learn-skill"
+  ]
 }
