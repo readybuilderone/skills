@@ -2,6 +2,7 @@
   "name": "readybuilderone-skills",
   "skills": [
     "./skills/productivity/yh-meta-learn-skill",
-    "./skills/productivity/yh-grill-me"
+    "./skills/productivity/yh-grill-me",
+    "./skills/productivity/yh-study"
   ]
 }
