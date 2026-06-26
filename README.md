@@ -15,6 +15,7 @@ This will install all promoted skills into your local Claude Code environment.
 Skills are triggered automatically by Claude Code when your prompt matches a skill's trigger words. You can also invoke them explicitly:
 
 ```
+/yh-codebase-onboarding  # 摸清一个陌生代码库，产出导览文档
 /yh-study         # 交互式深度学习一个新概念
 /yh-grill-me      # 对你的方案进行追问压力测试
 /yh-meta-learn-skill  # 快速了解某个已安装的 skill
@@ -22,6 +23,7 @@ Skills are triggered automatically by Claude Code when your prompt matches a ski
 
 Or describe your intent naturally:
 
+- "帮我摸清这个 repo" → triggers `yh-codebase-onboarding`
 - "帮我讲讲 Raft 协议" → triggers `yh-study`
 - "grill me on this design" → triggers `yh-grill-me`
 - "学习一下 tdd 这个 skill" → triggers `yh-meta-learn-skill`
@@ -30,13 +32,9 @@ Or describe your intent naturally:
 
 ### Engineering
 
-_No skills yet._
+- [yh-codebase-onboarding](skills/engineering/yh-codebase-onboarding/SKILL.md) — 摸清陌生代码库，产出决策者视角的导览（功能/场景/架构/外部依赖），不碰 CLAUDE.md
 
 ### Productivity
-
-_No skills yet._
-
-## Productivity
 
 - [yh-meta-learn-skill](skills/productivity/yh-meta-learn-skill/SKILL.md) — 快速学习任意已安装 Skill 的元技能，生成速读卡
 - [yh-grill-me](skills/productivity/yh-grill-me/SKILL.md) — 逐问追问压力测试你的设计/计划（fork of mattpocock/grill-me）
